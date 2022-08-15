@@ -1,0 +1,86 @@
+/* body {
+    background-color: black;
+} */
+
+.row {
+    background-color: #52b788;
+    margin-top: 110px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    /* margin-block-start: 0.67em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.btn {
+    background: #52b788;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.btn :hover {
+    border: 1px solid #52b788;
+}
+
+tr {
+    background-color: rgb(0, 152, 121);
+    color: #fff;
+}
+
+.container {
+    width: 70%;
+}
+tr {
+    color: red;
+    background-color: pink;
+  }
+  /* .list > .content:first-child:not() {
+    background-color: blue;
+} */
+
+  tbody > tr:first-child,
+  .list > i:first-child:nth-last-of-type(3) ~ tr {
+    color: white;
+    background-color: orange;
+  }
+
+  tbody > tr:nth-child(2) {
+    color: white;
+    background-color: silver;
+  }
+
+  tbody > tr:nth-child(3) {
+    color: white;
+    background-color: brown;
+  }
+/* tbody > tr:first-child:nth-last-of-type(n+3), 
+tbody > tr:first-child:nth-last-of-type(n+3) ~ tr {
+  color: blue;
+} */
+/* .list > tr:first-child:nth-last-child(3), */
+/* .list > tr:first-child:nth-last-child(3){
+    background-color: brown;
+} */
+/* 
+  i:nth-child(1n+2) {background-color:green; }
+.list:nth-child(2) {background-color:red; }
+.list:nth-child(3) {background-color:brown; }
+.list:nth-child(4) {background-color:chartreuse; }    */
+/* tr:nth-child(2n+1) {
+    background: green;
+  } */
+ /* .list > tr{
+    background-color: red;
+  }  */
+  /* .list |* { background-color: blue } */
+
+  /* .list > tr{
+    background-color: brown;
+  } */
